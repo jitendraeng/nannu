@@ -12,6 +12,13 @@ public class ram {
 		System.out.println("jai shree ram");
 		System.out.println("jai shree ram");
 		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
+		System.out.println("jai shree ram");
 
 	}
 
