@@ -9645,3 +9645,6 @@ Caused by: java.io.EOFException: input contained no data
 2025-08-19 15:54:02,877 [Worker-17: Launching ram] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-08-19 15:54:02,879 [Worker-17: Launching ram] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
 2025-08-19 16:01:21,540 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-19 16:01:21,541 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-08-19 16:01:21,546 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-19 16:01:21,548 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
