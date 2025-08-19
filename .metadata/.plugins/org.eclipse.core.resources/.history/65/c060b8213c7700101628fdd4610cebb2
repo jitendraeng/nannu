@@ -1,0 +1,17 @@
+package practice;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+int fact=1;
+		int t=3;
+		for (int i = 1; i <=t; i++) {
+			fact=fact*i;
+			
+			
+			
+		}
+		System.out.println(fact);
+	}
+
+}

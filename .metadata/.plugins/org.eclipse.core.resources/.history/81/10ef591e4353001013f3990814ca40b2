@@ -1,0 +1,31 @@
+package practice;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class JavaPractice {
+
+	public static void main(String[] args) {
+
+		int arr[] = { 10, 1, 2, 11, 3, 4, 5, 6, 1, 6 };
+              // Arrays.sort(arr);
+		int count = 1;
+		for (int i = 1; i < arr.length; i++) {
+
+			if (arr[i] != arr[i- 1]) {
+
+				arr[count++] = arr[i];
+
+			}
+
+		}
+		
+		System.out.println("index is updated by : "+count);
+		
+		for(int i=0;i<count;i++) {
+			
+			System.out.print(arr[i]+ " ");
+			
+		}
+	}
+}

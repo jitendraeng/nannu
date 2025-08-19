@@ -1,0 +1,32 @@
+package PracticeJava;
+
+public class StringExamples {
+
+	public static void main(String[] args) {
+		String s1 = "ram shyam";
+		char[] s = s1.toCharArray();
+		char[] c = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
+		String a = " ";
+		for (char ch : c) {
+
+			for (int i = 0; i < s.length; i++) {
+
+				if (s[i] == ch) {
+
+					a = a + '$';
+
+				} else
+
+				{
+
+					a = a + s[i];
+
+				}
+
+			}
+			System.out.println(a);
+		}
+
+	}
+
+}

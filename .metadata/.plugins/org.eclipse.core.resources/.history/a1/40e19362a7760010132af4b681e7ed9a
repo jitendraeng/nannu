@@ -1,0 +1,38 @@
+package practice;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+
+		int[] a = { 1, 2, 6, 5, 4, 8, 7, 9, 0, 2, 9 };
+		int max = Integer.MIN_VALUE;
+		int smax = Integer.MIN_VALUE;
+		int tmax = Integer.MIN_VALUE;
+
+		for (int num : a) {
+
+			if (num > max) {
+
+				tmax = smax;
+				smax = max;
+				max = num;
+
+			} else if (num > smax && num != max) {
+
+				tmax = max;
+				smax = num;
+
+			} else if (num > tmax && num != smax && num!=max) {
+
+				tmax = num;
+
+			}
+
+		}
+		
+		System.out.println("max number "+max);
+		System.out.println("second max number "+smax);
+		System.out.println("third max number "+tmax);
+
+	}
+}

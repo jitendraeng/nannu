@@ -1,0 +1,21 @@
+package practice;
+
+import java.util.Arrays;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+		
+		 String a[]= {"orange", "apple", "banana", "grape"};
+		 Arrays.sort(a);
+		 for(String z :a) {
+			 
+			 System.out.println(z);
+			 
+		 }
+		 
+		 
+
+		
+	}
+}

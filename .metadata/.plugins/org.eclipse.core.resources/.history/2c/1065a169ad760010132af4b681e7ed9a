@@ -1,0 +1,33 @@
+package practice;
+
+import java.util.Arrays;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+
+		boolean isprime = true;
+		int c = 13;
+
+		for (int i = 2; i < Math.sqrt(c); i++) {
+
+			if (c % i == 0) {
+
+				isprime = false;
+
+			}
+
+		}
+		
+		if(isprime) {
+			
+			
+			System.out.println("no is prime ");
+			
+		}else {
+			
+			System.out.println("no is not prime ");
+		}
+
+	}
+}

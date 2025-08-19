@@ -1,0 +1,11 @@
+package PracticeJava;
+
+public class StringExamples {
+
+	public static void main(String[] args) {
+		String s1= "ram shyam ram radha ";
+		System.out.println(s1.replace("ram", "Govind"));
+       
+	}
+
+}

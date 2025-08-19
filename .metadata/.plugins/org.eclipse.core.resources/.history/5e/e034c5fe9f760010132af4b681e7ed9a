@@ -1,0 +1,12 @@
+package practice;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+
+		String a = "002120025";
+		int z=Integer.parseInt(a);
+	String d=Integer.toString(z);
+	System.out.println(d+"ram");
+	}
+}

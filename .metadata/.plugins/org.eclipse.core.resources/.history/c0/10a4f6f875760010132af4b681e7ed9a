@@ -1,0 +1,12 @@
+package practice;
+
+public interface yadav {
+	
+	
+	
+	public void add();
+	 static void greet() {
+	        System.out.println("Hello from static method");
+	    }
+
+}
